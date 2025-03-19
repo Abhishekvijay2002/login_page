@@ -13,10 +13,6 @@ import Loginpage from './loginpage.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
-  },
-  {
-    path: "/signup",
     element: <Signuppage/>
   },
   {
