@@ -1,6 +1,8 @@
 import React from 'react'
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 
-function signuppage() {
+function Signuppage() {
   return (
     <div style={{ backgroundColor: "#007bff", height: "100vh", display: "flex", justifyContent: "center", alignItems: "center" }}>
     <div className="d-flex justify-content-center align-items-center" style={{ width: "400px", height: "auto", backgroundColor: "white", borderRadius: "10px", padding: "20px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}>
@@ -26,7 +28,7 @@ function signuppage() {
         </Button>
 
         <div className="text-center mt-3">
-          <p>Already have an account?<a href="#">Log in</a></p>
+          <p>Already have an account?<a href="login">Log in</a></p>
         </div>
       </Form>
     </div>
@@ -34,4 +36,4 @@ function signuppage() {
   )
 }
 
-export default signuppage
+export default Signuppage
