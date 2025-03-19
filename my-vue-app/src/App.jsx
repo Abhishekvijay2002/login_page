@@ -9,36 +9,19 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function App() {
 
   return (
-    <div style={{ backgroundColor: "#007bff", height: "100vh", display: "flex", justifyContent: "center", alignItems: "center" }}>
-    <div className="d-flex justify-content-center align-items-center" style={{ width: "400px", height: "auto", backgroundColor: "white", borderRadius: "10px", padding: "20px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}>
-      <Form>
-        <h4 className="text-center mb-4">Signup page</h4>
-        <Form.Group className="mb-3" controlId="formBasicName">
-          <Form.Label>Name</Form.Label>
-          <Form.Control type="text" placeholder="Enter your name" />
-        </Form.Group>
+<div style={{ 
+      height: "100vh", 
+      display: "flex", 
+      justifyContent: "center", 
+      alignItems: "center", 
+      backgroundColor: "#f0f8ff" 
+    }}>
 
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
-        </Form.Group>
+        <h1>Welcome Home</h1>
+      </div>
 
-        <Form.Group className="mb-3" controlId="formBasicPassword">
-          <Form.Label>Password</Form.Label>
-          <Form.Control type="password" placeholder="Password" />
-        </Form.Group>
-
-        <Button variant="primary" type="submit" className="w-100">
-          Login
-        </Button>
-
-        <div className="text-center mt-3">
-          <p>Already have an account?<a href="#">Log in</a></p>
-        </div>
-      </Form>
-    </div>
-  </div>
   );
+
   
 }
 
